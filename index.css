@@ -1,0 +1,130 @@
+*{ 
+
+margin: 0px;
+padding: 0;
+
+}
+body { 
+  background-image: url(netflix-s.avif);
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('netflix-s.avif');
+
+}
+.header { 
+    height:80px; 
+    align-items: center;
+   display: flex;
+
+
+}
+.header img { 
+height: 40px;
+width: 150px ;
+
+margin-left: 25px ;
+
+
+}
+.header select { 
+
+border: solid 1px rgb(201, 186, 186) ;
+border-radius: 6px;
+height: 30px;
+width: 110px;
+margin-left: 970px ; 
+background-color: rgb(45, 39, 39);
+position: relative;
+color: aliceblue;
+}
+.header button  { 
+background-color:rgb(229, 9, 20); 
+color: aliceblue;
+/* border: solid 1px ; */
+border-radius:6px ;
+height: 30px;
+width: 72px ;
+margin-left: 20px;
+flex-wrap: nowrap;
+}
+.header button:hover { 
+    height: 32px;
+    width: 74px ;
+   background-color: rgb(186, 12, 20) ; 
+}
+
+.header select  option { 
+color: rgb(0, 3, 6);
+background-color: aliceblue;
+    
+}
+.container { 
+display: block;
+justify-content: center;
+align-items: center;
+height: 615px ;
+border: solid 1px transparent;
+
+}
+.block { 
+    margin: auto;
+    width: fit-content;
+   margin-top: 170px ;
+   justify-content: center;
+  
+ 
+}
+.block h1 { 
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: aliceblue;
+}
+.block h1 span { 
+    margin-left: 70px;
+    margin-right: 15px;
+    font-size: 58px;
+    color: aliceblue;
+
+
+}
+.block span { 
+    font-weight: bolder;
+    font-size: larger;
+margin-left: 139px;
+color: aliceblue;
+
+
+}
+.block h6 { 
+    font-size: 16px;
+    font-weight: lighter;
+    margin-left: 40px;
+    color: aliceblue;
+
+}
+.block input { 
+    height: 47px;
+width: 340px ;
+border-radius: 4px ;
+border: solid 1px  grey;
+background-color: transparent;
+font-size: 15px;
+color: grey;
+}
+
+.block button { 
+    height: 50px;
+width: 210px;
+background-color:rgb(229, 9, 20) ;
+color: aliceblue;
+font-size: 25px;
+font-weight: bolder;
+border-radius: 4px ;
+margin-left: 5px;
+border: solid 1px rgb(229, 9, 20);
+
+
+}
+.block button:hover { 
+    background-color:rgb(186, 12, 20) ;
+}
